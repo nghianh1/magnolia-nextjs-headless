@@ -1,0 +1,37 @@
+{
+  "name": "nextjs-ssr-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env PORT=8181 next dev",
+    "prebuild": "npm run lint",
+    "build": "next build",
+    "start": "cross-env PORT=8181 next start",
+    "format": "prettier --write src/**",
+    "lint": "eslint 'src/**'",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@magnolia/react-editor": "^2.1.1",
+    "next": "^15.5.7",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "@types/react": "^19.0.4",
+    "@types/react-dom": "^19.0.4",
+    "autoprefixer": "^10.4.21",
+    "cross-env": "^10.1.0",
+    "eslint": "^9.23.0",
+    "eslint-config-next": "^15.2.4",
+    "eslint-config-prettier": "^10.1.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.29.0"
+  }
+}

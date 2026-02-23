@@ -1,0 +1,145 @@
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: The project will be created in the current working directory
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Starting download from: https://gitlab.magnolia-platform.com/demos/nextjs-ssr-starter/-/archive/main/nextjs-ssr-starter-main.zip
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Starting download from: https://gitlab.magnolia-platform.com/demos/common-lm/-/archive/main/common-lm-main.zip
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Starting download from: https://gitlab.magnolia-platform.com/demos/community-lm/-/archive/6.3/community-lm-6.3.zip
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Retrieving download URL from: https://nexus.magnolia-cms.com/service/rest/v1/search/assets?sort=version&repository=public&maven.groupId=info.magnolia.tomcat.barebone&maven.artifactId=magnolia-tomcat-barebone&maven.extension=zip
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Starting download from: https://nexus.magnolia-cms.com/repository/public/info/magnolia/tomcat/barebone/magnolia-tomcat-barebone/2.0.1/magnolia-tomcat-barebone-2.0.1.zip
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Retrieving download URL from: https://nexus.magnolia-cms.com/service/rest/v1/search/assets?sort=version&repository=public&maven.groupId=info.magnolia.bundle&maven.artifactId=magnolia-community-webapp&maven.extension=war
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Starting download from: https://nexus.magnolia-cms.com/repository/public/info/magnolia/bundle/magnolia-community-webapp/6.4.2/magnolia-community-webapp-6.4.2.war
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Created "microprofile-config.properties" at: D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaAuthor\WEB-INF\config\default\microprofile-config.properties
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Starting download from: https://gitlab.magnolia-platform.com/demos/demo-content/-/archive/ce/demo-content-ce.zip
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: [32m[1m✅ Found existing "light-modules" directory at: "D:\magnolia-headless\light-modules"[22m[39m
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Set "magnolia.resources.dir" to: "${magnolia.home}/../../../../light-modules" in "D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaAuthor\WEB-INF\config\default\magnolia.properties"
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Set "magnolia.update.auto" to: "true" in "D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaAuthor\WEB-INF\config\default\magnolia.properties"
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Set "magnolia.develop" to: "true" in "D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaAuthor\WEB-INF\config\default\magnolia.properties"
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Set "magnolia.graphql.introspection.enabled" to: "true" in "D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaAuthor\WEB-INF\config\default\magnolia.properties"
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Set "magnolia.personalization.rest.allowVariants" to: "true" in "D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaAuthor\WEB-INF\config\default\magnolia.properties"
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 warn: File "D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaPublic\WEB-INF\config\default\magnolia.properties" not found; skipping configuration
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 warn: File "D:\magnolia-headless\.magnolia\apache-tomcat\webapps\ROOT\WEB-INF\config\default\magnolia.properties" not found; skipping configuration
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Added "mgnl" script to package.json
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 warn: Changed 'type' property to "module" in "package.json"
+[AddPlugin@5.3.0] 2026-02-10T17:31:14.583+07:00 info: Installing @magnolia/cli-start-plugin...
+[AddPlugin@5.3.0] 2026-02-10T17:31:14.583+07:00 info: Package @magnolia/cli-start-plugin is installed.
+[AddPlugin@5.3.0] 2026-02-10T17:31:14.583+07:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.3.0] 2026-02-10T17:31:14.583+07:00 info: Added new plugin: "StartPlugin" to mgnl.config.js.
+[AddPlugin@5.3.0] 2026-02-10T17:31:14.583+07:00 info: Run `npm run mgnl` to see the list of registered commands.
+[AddPlugin@5.3.0] 2026-02-10T17:31:20.470+07:00 info: Installing @magnolia/cli-create-light-module-plugin...
+[AddPlugin@5.3.0] 2026-02-10T17:31:20.470+07:00 info: Package @magnolia/cli-create-light-module-plugin is installed.
+[AddPlugin@5.3.0] 2026-02-10T17:31:20.470+07:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.3.0] 2026-02-10T17:31:20.470+07:00 info: Added new plugin: "CreateLightModulePlugin" to mgnl.config.js.
+[AddPlugin@5.3.0] 2026-02-10T17:31:20.470+07:00 info: Run `npm run mgnl` to see the list of registered commands.
+[AddPlugin@5.3.0] 2026-02-10T17:31:25.222+07:00 info: Installing @magnolia/cli-create-app-plugin...
+[AddPlugin@5.3.0] 2026-02-10T17:31:25.222+07:00 info: Package @magnolia/cli-create-app-plugin is installed.
+[AddPlugin@5.3.0] 2026-02-10T17:31:25.222+07:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.3.0] 2026-02-10T17:31:25.222+07:00 info: Added new plugin: "CreateAppPlugin" to mgnl.config.js.
+[AddPlugin@5.3.0] 2026-02-10T17:31:25.222+07:00 info: Run `npm run mgnl` to see the list of registered commands.
+[AddPlugin@5.3.0] 2026-02-10T17:31:30.896+07:00 info: Installing @magnolia/cli-create-content-type-plugin...
+[AddPlugin@5.3.0] 2026-02-10T17:31:30.896+07:00 info: Package @magnolia/cli-create-content-type-plugin is installed.
+[AddPlugin@5.3.0] 2026-02-10T17:31:30.896+07:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.3.0] 2026-02-10T17:31:30.896+07:00 info: Added new plugin: "CreateContentTypePlugin" to mgnl.config.js.
+[AddPlugin@5.3.0] 2026-02-10T17:31:30.896+07:00 info: Run `npm run mgnl` to see the list of registered commands.
+[AddPlugin@5.3.0] 2026-02-10T17:31:36.236+07:00 info: Installing @magnolia/cli-create-rest-endpoint-plugin...
+[AddPlugin@5.3.0] 2026-02-10T17:31:36.236+07:00 info: Package @magnolia/cli-create-rest-endpoint-plugin is installed.
+[AddPlugin@5.3.0] 2026-02-10T17:31:36.236+07:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.3.0] 2026-02-10T17:31:36.236+07:00 info: Added new plugin: "CreateRestEndpointPlugin" to mgnl.config.js.
+[AddPlugin@5.3.0] 2026-02-10T17:31:36.236+07:00 info: Run `npm run mgnl` to see the list of registered commands.
+[AddPlugin@5.3.0] 2026-02-10T17:31:40.691+07:00 info: Installing @magnolia/cli-create-virtual-uri-plugin...
+[AddPlugin@5.3.0] 2026-02-10T17:31:40.691+07:00 info: Package @magnolia/cli-create-virtual-uri-plugin is installed.
+[AddPlugin@5.3.0] 2026-02-10T17:31:40.691+07:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.3.0] 2026-02-10T17:31:40.691+07:00 info: Added new plugin: "CreateVirtualUriPlugin" to mgnl.config.js.
+[AddPlugin@5.3.0] 2026-02-10T17:31:40.691+07:00 info: Run `npm run mgnl` to see the list of registered commands.
+[AddPlugin@5.3.0] 2026-02-10T17:31:45.137+07:00 info: Installing @magnolia/cli-create-component-plugin...
+[AddPlugin@5.3.0] 2026-02-10T17:31:45.137+07:00 info: Package @magnolia/cli-create-component-plugin is installed.
+[AddPlugin@5.3.0] 2026-02-10T17:31:45.137+07:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.3.0] 2026-02-10T17:31:45.137+07:00 info: Added new plugin: "CreateComponentPlugin" to mgnl.config.js.
+[AddPlugin@5.3.0] 2026-02-10T17:31:45.137+07:00 info: Run `npm run mgnl` to see the list of registered commands.
+[AddPlugin@5.3.0] 2026-02-10T17:31:59.435+07:00 info: Installing @magnolia/cli-create-page-plugin...
+[AddPlugin@5.3.0] 2026-02-10T17:31:59.435+07:00 info: Package @magnolia/cli-create-page-plugin is installed.
+[AddPlugin@5.3.0] 2026-02-10T17:31:59.435+07:00 info: Modifying mgnl.config.js...
+[AddPlugin@5.3.0] 2026-02-10T17:31:59.435+07:00 info: Added new plugin: "CreatePagePlugin" to mgnl.config.js.
+[AddPlugin@5.3.0] 2026-02-10T17:31:59.435+07:00 info: Run `npm run mgnl` to see the list of registered commands.
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Project successfully downloaded
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Run "npm run mgnl" to see the list of registered commands
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: Start the project using: "npm run mgnl -- start"
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: If the "StartPlugin" is not available, install it using: "npm run mgnl -- add-plugin @magnolia/cli-start-plugin"
+[JumpstartPlugin@1.1.5] 2026-02-10T17:27:26.010+07:00 info: For additional plugins and features, refer to the Magnolia CLI documentation: https://docs.magnolia-cms.com/magnolia-cli
+[AddPlugin@5.3.0] 2026-02-10T17:32:50.444+07:00 info: Installing @magnolia/cli-start-plugin...
+[AddPlugin@5.3.0] 2026-02-10T17:32:50.444+07:00 info: Package @magnolia/cli-start-plugin is installed.
+[AddPlugin@5.3.0] 2026-02-10T17:32:50.444+07:00 info: Plugin from @magnolia/cli-start-plugin is already present in mgnl.config.js.
+[StartPlugin@1.0.4] 2026-02-10T17:33:06.381+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-02-10T17:33:06.381+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-02-10T17:33:06.381+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-02-10T17:33:06.381+07:00 info: Press CTRL+C to terminate the process
+[StartPlugin@1.0.4] 2026-02-10T17:41:40.128+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-02-10T17:41:40.128+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-02-11T10:19:20.479+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-02-11T10:19:20.479+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-02-11T10:19:20.479+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-02-11T10:19:20.479+07:00 info: Press CTRL+C to terminate the process
+[@magnolia/cli@5.3.0] 2026-02-11T10:19:19.017+07:00 error: Second SIGINT received. Forcefully terminating...
+[StartPlugin@1.0.4] 2026-02-11T10:29:55.822+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-02-11T10:29:55.822+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[CreateComponentPlugin@1.4.0] 2026-02-11T10:48:47.178+07:00 info: Using light module "D:\magnolia-headless\light-modules\spa-lm" set by global argument in mgnl.config.js
+[CreateComponentPlugin@1.4.0] 2026-02-11T10:48:47.178+07:00 info: Starting @magnolia/cli-react-prototypes
+[CreateComponentPlugin@1.4.0] 2026-02-11T10:48:47.178+07:00 info: Name "heroBanner" will be used instead of provided "HeroBanner" for files created in light-module folder
+[CreateComponentPlugin@1.4.0] 2026-02-11T10:48:47.178+07:00 info: File "heroBanner.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/dialogs/components/heroBanner.yaml
+[CreateComponentPlugin@1.4.0] 2026-02-11T10:48:47.178+07:00 info: File "heroBanner.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/templates/components/heroBanner.yaml
+[CreateComponentPlugin@1.4.0] 2026-02-11T10:48:47.178+07:00 info: File "HeroBanner.tsx" created at: D:/magnolia-headless/spa/src/app/templates/components/HeroBanner.tsx
+[CreateComponentPlugin@1.4.0] 2026-02-11T10:48:47.178+07:00 info: Added: import HeroBannerComponent from './app/templates/components/HeroBanner'
+and: "spa-lm:components/heroBanner": HeroBannerComponent
+to component mappings file: "D:\magnolia-headless\spa\src\magnolia.config.ts"
+[StartPlugin@1.0.4] 2026-02-11T13:56:00.515+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-02-11T13:56:00.515+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-02-23T15:10:57.915+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-02-23T15:10:57.915+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-02-23T15:10:57.915+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-02-23T15:10:57.915+07:00 info: Press CTRL+C to terminate the process
+[CreatePagePlugin@1.4.0] 2026-02-23T16:03:57.755+07:00 info: Using light module "D:\magnolia-headless\light-modules\spa-lm" set by global argument in mgnl.config.js
+[CreatePagePlugin@1.4.0] 2026-02-23T16:03:57.755+07:00 info: Starting @magnolia/cli-react-prototypes
+[CreatePagePlugin@1.4.0] 2026-02-23T16:03:57.755+07:00 info: Name "homePage" will be used instead of provided "HomePage" for files created in light-module folder
+[CreatePagePlugin@1.4.0] 2026-02-23T16:03:57.755+07:00 info: File "homePage.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/dialogs/pages/homePage.yaml
+[CreatePagePlugin@1.4.0] 2026-02-23T16:03:57.755+07:00 info: File "homePage.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/templates/pages/homePage.yaml
+[CreatePagePlugin@1.4.0] 2026-02-23T16:03:57.755+07:00 info: File "HomePage.tsx" created at: D:/magnolia-headless/spa/src/app/templates/pages/HomePage.tsx
+[CreatePagePlugin@1.4.0] 2026-02-23T16:03:57.755+07:00 info: Added: import HomePagePage from './app/templates/pages/HomePage'
+and: "spa-lm:pages/homePage": HomePagePage
+to component mappings file: "D:\magnolia-headless\spa\src\magnolia.config.ts"
+[CreateComponentPlugin@1.4.0] 2026-02-23T16:32:55.301+07:00 info: Using light module "D:\magnolia-headless\light-modules\spa-lm" set by global argument in mgnl.config.js
+[CreateComponentPlugin@1.4.0] 2026-02-23T16:32:55.301+07:00 info: Starting @magnolia/cli-react-prototypes
+[CreateComponentPlugin@1.4.0] 2026-02-23T16:32:55.301+07:00 info: Name "homePageBanner" will be used instead of provided "HomePageBanner" for files created in light-module folder
+[CreateComponentPlugin@1.4.0] 2026-02-23T16:32:55.301+07:00 info: File "homePageBanner.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/dialogs/components/homePageBanner.yaml
+[CreateComponentPlugin@1.4.0] 2026-02-23T16:32:55.301+07:00 info: File "homePageBanner.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/templates/components/homePageBanner.yaml
+[CreateComponentPlugin@1.4.0] 2026-02-23T16:32:55.301+07:00 info: File "HomePageBanner.tsx" created at: D:/magnolia-headless/spa/src/app/templates/components/HomePageBanner.tsx
+[CreateComponentPlugin@1.4.0] 2026-02-23T16:32:55.301+07:00 info: Added: import HomePageBannerComponent from './app/templates/components/HomePageBanner'
+and: "spa-lm:components/homePageBanner": HomePageBannerComponent
+to component mappings file: "D:\magnolia-headless\spa\src\magnolia.config.ts"
+[CreateComponentPlugin@1.4.0] 2026-02-23T16:32:55.301+07:00 info: No target area specified; will default to 'main'
+[CreateComponentPlugin@1.4.0] 2026-02-23T16:32:55.301+07:00 info: Availability for spa-lm:components/homePageBanner added into D:\magnolia-headless\light-modules\spa-lm\templates\pages\HomePage.yaml
+[CreatePagePlugin@1.4.0] 2026-02-23T17:50:11.634+07:00 info: Using light module "D:\magnolia-headless\light-modules\spa-lm" set by global argument in mgnl.config.js
+[CreatePagePlugin@1.4.0] 2026-02-23T17:50:11.634+07:00 info: Starting @magnolia/cli-react-prototypes
+[CreatePagePlugin@1.4.0] 2026-02-23T17:50:11.634+07:00 info: Name "contentPage" will be used instead of provided "ContentPage" for files created in light-module folder
+[CreatePagePlugin@1.4.0] 2026-02-23T17:50:11.634+07:00 info: File "contentPage.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/dialogs/pages/contentPage.yaml
+[CreatePagePlugin@1.4.0] 2026-02-23T17:50:11.634+07:00 info: File "contentPage.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/templates/pages/contentPage.yaml
+[CreatePagePlugin@1.4.0] 2026-02-23T17:50:11.634+07:00 info: File "ContentPage.tsx" created at: D:/magnolia-headless/spa/src/app/templates/pages/ContentPage.tsx
+[CreatePagePlugin@1.4.0] 2026-02-23T17:50:11.634+07:00 info: Added: import ContentPagePage from './app/templates/pages/ContentPage'
+and: "spa-lm:pages/contentPage": ContentPagePage
+to component mappings file: "D:\magnolia-headless\spa\src\magnolia.config.ts"
+[CreatePagePlugin@1.4.0] 2026-02-23T17:50:11.634+07:00 error: Unexpected error occurred:
+EPERM, Permission denied: \\?\D:\magnolia-headless\.temp '\\?\D:\magnolia-headless\.temp'
+[CreatePagePlugin@1.4.0] 2026-02-23T17:50:11.634+07:00 error: Unexpected error occurred:
+EPERM, Permission denied: \\?\D:\magnolia-headless\.temp '\\?\D:\magnolia-headless\.temp'
+[@magnolia/cli@5.3.0] 2026-02-23T18:09:25.379+07:00 warn: Couldn't send analytics.
+[StartPlugin@1.0.4] 2026-02-23T18:09:28.086+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-02-23T18:09:28.086+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-02-23T18:09:28.086+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-02-23T18:09:28.086+07:00 info: Press CTRL+C to terminate the process
+[CreateComponentPlugin@1.4.0] 2026-02-23T18:14:50.245+07:00 info: Using light module "D:\magnolia-headless\light-modules\spa-lm" set by global argument in mgnl.config.js
+[CreateComponentPlugin@1.4.0] 2026-02-23T18:14:50.245+07:00 info: Starting @magnolia/cli-react-prototypes
+[CreateComponentPlugin@1.4.0] 2026-02-23T18:14:50.245+07:00 info: Name "textBlock" will be used instead of provided "TextBlock" for files created in light-module folder
+[CreateComponentPlugin@1.4.0] 2026-02-23T18:14:50.245+07:00 info: File "textBlock.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/dialogs/components/textBlock.yaml
+[CreateComponentPlugin@1.4.0] 2026-02-23T18:14:50.245+07:00 info: File "textBlock.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/templates/components/textBlock.yaml
+[CreateComponentPlugin@1.4.0] 2026-02-23T18:14:50.245+07:00 info: File "TextBlock.tsx" created at: D:/magnolia-headless/spa/src/app/templates/components/TextBlock.tsx
+[CreateComponentPlugin@1.4.0] 2026-02-23T18:14:50.245+07:00 info: Added: import TextBlockComponent from './app/templates/components/TextBlock'
+and: "spa-lm:components/textBlock": TextBlockComponent
+to component mappings file: "D:\magnolia-headless\spa\src\magnolia.config.ts"
+[CreateComponentPlugin@1.4.0] 2026-02-23T18:14:50.245+07:00 info: No target area specified; will default to 'main'
+[CreateComponentPlugin@1.4.0] 2026-02-23T18:14:50.245+07:00 info: Availability for spa-lm:components/textBlock added into D:\magnolia-headless\light-modules\spa-lm\templates\pages\contentPage.yaml

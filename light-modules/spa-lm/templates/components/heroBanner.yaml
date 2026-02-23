@@ -1,0 +1,15 @@
+title: heroBanner
+dialog: spa-lm:components/heroBanner
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+
+    description:
+      $type: textField
+      label: Description
+
+    buttonText:
+      $type: textField
+      label: Button Text

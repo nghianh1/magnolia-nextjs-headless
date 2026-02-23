@@ -1,0 +1,294 @@
+23-Feb-2026 15:11:03.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.49
+23-Feb-2026 15:11:03.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2025 01:31:11 UTC
+23-Feb-2026 15:11:03.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.49.0
+23-Feb-2026 15:11:03.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Feb-2026 15:11:03.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Feb-2026 15:11:03.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2026 15:11:03.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+23-Feb-2026 15:11:03.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.8+12-LTS-250
+23-Feb-2026 15:11:03.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Feb-2026 15:11:03.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\magnolia-headless\.magnolia\apache-tomcat
+23-Feb-2026 15:11:03.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\magnolia-headless\.magnolia\apache-tomcat
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\magnolia-headless\.magnolia\apache-tomcat\conf\logging.properties
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dmagnolia.resources.dir=D:\magnolia-headless\light-modules
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms64M
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048M
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\magnolia-headless\.magnolia\apache-tomcat
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\magnolia-headless\.magnolia\apache-tomcat
+23-Feb-2026 15:11:03.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\magnolia-headless\.magnolia\apache-tomcat\temp
+23-Feb-2026 15:11:03.289 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Users\nghianh1\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\nghianh1\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\nghianh1\AppData\Local\Microsoft\WindowsApps;C:\Users\nghianh1\AppData\Local\Programs\Git\cmd;C:\Users\nghianh1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nghianh1\.dotnet\tools;C:\Users\nghianh1\AppData\Roaming\npm;.]
+23-Feb-2026 15:11:03.778 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Feb-2026 15:11:03.819 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [859] milliseconds
+23-Feb-2026 15:11:03.915 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2026 15:11:03.915 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.49]
+23-Feb-2026 15:11:03.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaAuthor]
+23-Feb-2026 15:12:05.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaAuthor] has finished in [61,835] ms
+23-Feb-2026 15:12:05.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaPublic]
+23-Feb-2026 15:12:48.614 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaPublic] has finished in [42,831] ms
+23-Feb-2026 15:12:48.614 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\magnolia-headless\.magnolia\apache-tomcat\webapps\ROOT]
+23-Feb-2026 15:12:48.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\magnolia-headless\.magnolia\apache-tomcat\webapps\ROOT] has finished in [25] ms
+23-Feb-2026 15:12:48.645 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Feb-2026 15:12:48.676 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [104843] milliseconds
+23-Feb-2026 16:05:19.342 SEVERE [http-nio-8080-exec-4] com.vaadin.server.DefaultErrorHandler.doDefault 
+	java.lang.NullPointerException: Cannot invoke "com.vaadin.server.VaadinRequest.setAttribute(String, Object)" because the return value of "com.vaadin.server.VaadinRequest.getCurrent()" is null
+		at info.magnolia.admincentral.AdmincentralServlet.lambda$servletInitialized$e7830726$1(AdmincentralServlet.java:151)
+		at com.vaadin.server.VaadinService.lambda$fireSessionDestroy$1(VaadinService.java:548)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at com.vaadin.server.VaadinService.runPendingAccessTasks(VaadinService.java:2126)
+		at com.vaadin.server.VaadinSession.unlock(VaadinSession.java:1040)
+		at com.vaadin.server.VaadinService.requestEnd(VaadinService.java:1511)
+		at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1672)
+		at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:457)
+		at info.magnolia.admincentral.AdmincentralServlet.service(AdmincentralServlet.java:161)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at info.magnolia.cms.filters.ServletDispatchingFilter.doFilter(ServletDispatchingFilter.java:148)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.virtualuri.VirtualUriFilter.doFilter(VirtualUriFilter.java:108)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.module.cache.executor.Bypass.processCacheRequest(Bypass.java:58)
+		at info.magnolia.module.cache.executor.CompositeExecutor.processCacheRequest(CompositeExecutor.java:66)
+		at info.magnolia.module.cache.filter.CacheFilter.doFilter(CacheFilter.java:164)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.i18n.I18nContentSupportFilter.doFilter(I18nContentSupportFilter.java:85)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.RangeSupportFilter.doFilter(RangeSupportFilter.java:79)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.security.BaseSecurityFilter.doFilter(BaseSecurityFilter.java:57)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cors.AbstractCorsFilter.doFilter(AbstractCorsFilter.java:77)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:79)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.security.SecurityCallbackFilter.doFilter(SecurityCallbackFilter.java:85)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.security.LogoutFilter.doFilter(LogoutFilter.java:118)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.module.site.filters.SiteMergeFilter.doFilter(SiteMergeFilter.java:115)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MultiChannelFilter.doFilter(MultiChannelFilter.java:83)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.security.auth.login.LoginFilter.doFilter(LoginFilter.java:133)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:74)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.ContentTypeFilter.doFilter(ContentTypeFilter.java:156)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.ContextFilter.doFilter(ContextFilter.java:128)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.SafeDestroyMgnlFilterWrapper.doFilter(SafeDestroyMgnlFilterWrapper.java:107)
+		at info.magnolia.cms.filters.MgnlFilterDispatcher.doDispatch(MgnlFilterDispatcher.java:67)
+		at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:110)
+		at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:96)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:654)
+		at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:733)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+23-Feb-2026 17:13:25.762 SEVERE [http-nio-8080-exec-6] com.vaadin.server.DefaultErrorHandler.doDefault 
+	java.lang.NullPointerException: Cannot invoke "com.vaadin.server.VaadinRequest.setAttribute(String, Object)" because the return value of "com.vaadin.server.VaadinRequest.getCurrent()" is null
+		at info.magnolia.admincentral.AdmincentralServlet.lambda$servletInitialized$e7830726$1(AdmincentralServlet.java:151)
+		at com.vaadin.server.VaadinService.lambda$fireSessionDestroy$1(VaadinService.java:548)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at com.vaadin.server.VaadinService.runPendingAccessTasks(VaadinService.java:2126)
+		at com.vaadin.server.VaadinSession.unlock(VaadinSession.java:1040)
+		at com.vaadin.server.VaadinService.requestEnd(VaadinService.java:1511)
+		at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1672)
+		at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:457)
+		at info.magnolia.admincentral.AdmincentralServlet.service(AdmincentralServlet.java:161)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at info.magnolia.cms.filters.ServletDispatchingFilter.doFilter(ServletDispatchingFilter.java:148)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.virtualuri.VirtualUriFilter.doFilter(VirtualUriFilter.java:108)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.module.cache.executor.Bypass.processCacheRequest(Bypass.java:58)
+		at info.magnolia.module.cache.executor.CompositeExecutor.processCacheRequest(CompositeExecutor.java:66)
+		at info.magnolia.module.cache.filter.CacheFilter.doFilter(CacheFilter.java:164)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.i18n.I18nContentSupportFilter.doFilter(I18nContentSupportFilter.java:85)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.RangeSupportFilter.doFilter(RangeSupportFilter.java:79)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.security.BaseSecurityFilter.doFilter(BaseSecurityFilter.java:57)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cors.AbstractCorsFilter.doFilter(AbstractCorsFilter.java:77)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:79)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.security.SecurityCallbackFilter.doFilter(SecurityCallbackFilter.java:85)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.security.LogoutFilter.doFilter(LogoutFilter.java:118)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.module.site.filters.SiteMergeFilter.doFilter(SiteMergeFilter.java:115)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MultiChannelFilter.doFilter(MultiChannelFilter.java:83)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.security.auth.login.LoginFilter.doFilter(LoginFilter.java:133)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:74)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.ContentTypeFilter.doFilter(ContentTypeFilter.java:156)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.ContextFilter.doFilter(ContextFilter.java:128)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.SafeDestroyMgnlFilterWrapper.doFilter(SafeDestroyMgnlFilterWrapper.java:107)
+		at info.magnolia.cms.filters.MgnlFilterDispatcher.doDispatch(MgnlFilterDispatcher.java:67)
+		at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:110)
+		at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:96)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:654)
+		at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:733)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+23-Feb-2026 18:09:36.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.49
+23-Feb-2026 18:09:36.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2025 01:31:11 UTC
+23-Feb-2026 18:09:36.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.49.0
+23-Feb-2026 18:09:36.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Feb-2026 18:09:36.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Feb-2026 18:09:36.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2026 18:09:36.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+23-Feb-2026 18:09:36.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.8+12-LTS-250
+23-Feb-2026 18:09:36.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Feb-2026 18:09:36.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\magnolia-headless\.magnolia\apache-tomcat
+23-Feb-2026 18:09:36.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\magnolia-headless\.magnolia\apache-tomcat
+23-Feb-2026 18:09:36.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\magnolia-headless\.magnolia\apache-tomcat\conf\logging.properties
+23-Feb-2026 18:09:36.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2026 18:09:36.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2026 18:09:36.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2026 18:09:36.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+23-Feb-2026 18:09:36.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2026 18:09:36.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+23-Feb-2026 18:09:36.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2026 18:09:36.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2026 18:09:36.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2026 18:09:36.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2026 18:09:36.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dmagnolia.resources.dir=D:\magnolia-headless\light-modules
+23-Feb-2026 18:09:36.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms64M
+23-Feb-2026 18:09:36.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048M
+23-Feb-2026 18:09:36.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+23-Feb-2026 18:09:36.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\magnolia-headless\.magnolia\apache-tomcat
+23-Feb-2026 18:09:36.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\magnolia-headless\.magnolia\apache-tomcat
+23-Feb-2026 18:09:36.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\magnolia-headless\.magnolia\apache-tomcat\temp
+23-Feb-2026 18:09:36.244 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Users\nghianh1\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\nghianh1\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\nghianh1\AppData\Local\Microsoft\WindowsApps;C:\Users\nghianh1\AppData\Local\Programs\Git\cmd;C:\Users\nghianh1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nghianh1\.dotnet\tools;C:\Users\nghianh1\AppData\Roaming\npm;.]
+23-Feb-2026 18:09:36.690 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Feb-2026 18:09:36.741 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [828] milliseconds
+23-Feb-2026 18:09:36.812 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2026 18:09:36.812 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.49]
+23-Feb-2026 18:09:36.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaAuthor]
+23-Feb-2026 18:10:22.536 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaAuthor] has finished in [45,720] ms
+23-Feb-2026 18:10:22.536 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaPublic]
+23-Feb-2026 18:11:06.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\magnolia-headless\.magnolia\apache-tomcat\webapps\magnoliaPublic] has finished in [44,246] ms
+23-Feb-2026 18:11:06.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\magnolia-headless\.magnolia\apache-tomcat\webapps\ROOT]
+23-Feb-2026 18:11:06.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\magnolia-headless\.magnolia\apache-tomcat\webapps\ROOT] has finished in [26] ms
+23-Feb-2026 18:11:06.813 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Feb-2026 18:11:06.846 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [90103] milliseconds

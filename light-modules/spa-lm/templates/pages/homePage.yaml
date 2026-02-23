@@ -1,0 +1,17 @@
+renderType: spa
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+
+title: homePage
+dialog: spa-lm:pages/homePage
+baseUrl: http://localhost:8181
+routeTemplate: '/{language}{{@path}}'
+
+areas:
+  main:
+    title: Main Area
+    availableComponents:
+      homePageBanner:
+        id: spa-lm:components/homePageBanner
+
+  extras:
+    title: Extras Area
