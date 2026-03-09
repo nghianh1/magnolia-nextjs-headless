@@ -1,5 +1,6 @@
 import React from "react";
 import { environment } from "../../../environments/environment";
+import Image from "next/image";
 
 interface ImageChooser {
   field?: "image" | "externalImage";

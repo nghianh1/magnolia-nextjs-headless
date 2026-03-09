@@ -1,0 +1,93 @@
+label: freeGiftCard
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+      required: true
+      i18n: true
+    imageChooser:
+      $type: switchableField
+      label: Image
+      i18n: true
+      field:
+        $type: comboBoxField
+        emptySelectionAllowed: true
+        datasource:
+          $type: optionListDatasource
+          options:
+            - name: image
+              label: Internal Image
+              value: image
+            - name: externalImage
+              label: External Image
+              value: externalImage
+      itemProvider:
+        $type: jcrChildNodeProvider
+      forms:
+        - name: image
+          properties:
+            image:
+              i18n: true
+              required: true
+              $type: damLinkField
+              label: Internal Image Link
+            imageAlt:
+              i18n: true
+              $type: textField
+              label: Image Alt Text
+        - name: externalImage
+          properties:
+            externalImage:
+              i18n: true
+              required: true
+              $type: textField
+              label: External Image Link
+              validators:
+                imageUrlValidator:
+                  $type: regexpValidator
+                  pattern: ^https?:\/\/(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(?:\/[^\s]*)?$
+                  errorMessage: Enter a valid Image URL
+            externalImageAlt:
+              i18n: true
+              $type: textField
+              label: Image Alt Text
+    linkChooser:
+      $type: switchableField
+      label: Button / Link
+      i18n: true
+      field:
+        $type: comboBoxField
+        datasource:
+          $type: optionListDatasource
+          options:
+            - name: internalLink
+              label: Internal Page
+              value: internalLink
+            - name: externalLink
+              label: External URL
+              value: externalLink
+      itemProvider:
+        $type: jcrChildNodeProvider
+      forms:
+        - name: internalLink
+          properties:
+            internalLink:
+              i18n: true
+              $type: pageLinkField
+              label: Internal Page
+              required: true
+              converterClass: info.magnolia.ui.editor.converter.JcrNodeToPathConverter
+        - name: externalLink
+          properties:
+            externalLink:
+              i18n: true
+              $type: textField
+              label: External URL
+              required: true
+              validators:
+                urlValidator:
+                  $type: regexpValidator
+                  pattern: ^https?:\/\/(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(?:\/[^\s]*)?$
+                  errorMessage: Enter a valid URL
+        

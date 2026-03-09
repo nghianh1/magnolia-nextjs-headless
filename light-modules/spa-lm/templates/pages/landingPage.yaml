@@ -1,0 +1,33 @@
+renderType: spa
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+
+title: Landing Page
+dialog: spa-lm:pages/landingPage
+baseUrl: http://localhost:8181
+routeTemplate: '/{language}{{@path}}'
+
+areas:
+  hero:
+    title: Hero Area
+    availableComponents:
+      heroBanner:
+        id: spa-lm:components/heroBanner
+
+  main:
+    title: Main Area
+    availableComponents:
+      textBlock:
+        id: spa-lm:components/textBlock
+      tourList:
+        id: spa-lm:components/tourList
+      accordion:
+        id: spa-lm:components/accordion
+      myCarousel:
+        id: spa-lm:components/myCarousel
+      container:
+        id: spa-lm:components/container
+  footer:
+    title: Footer Area
+    availableComponents:
+      linkList:
+        id: spa-lm:components/linkList

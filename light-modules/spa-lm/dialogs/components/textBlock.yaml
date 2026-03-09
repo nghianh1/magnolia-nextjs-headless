@@ -8,3 +8,12 @@ form:
       required: true
       colors: 02373F
       fontSizes: 'Small/0.75rem;Default/1rem;Big/1.5rem'
+      datasource:
+        $type: optionListDatasource
+        options:
+          - name: default
+            label: Default
+          - name: highlight
+            label: Highlight
+          - name: dark
+            label: Dark

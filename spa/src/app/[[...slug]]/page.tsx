@@ -47,6 +47,9 @@ async function loadPageContent(uri: string, nodeName: string) {
     magnoliaContext,
     environment.pageBase
   );
+
+  // console.log("content>>>>", pageContent.main)
+
   props.page = pageContent as MgnlContent;
 
   const pageNavContent = await fetchPageNav(nodeName, environment.navBase);
@@ -116,7 +119,9 @@ export default async function Page(pageProps: {
       <ClientConfigRCC />
       <div
         className={
-          props.magnoliaContext?.isMagnoliaEdit ? 'disable-a-pointer-events' : ''
+          props.magnoliaContext?.isMagnoliaEdit
+            ? 'disable-a-pointer-events'
+            : ''
         }
       >
         {props.pagenav && (
@@ -128,12 +133,14 @@ export default async function Page(pageProps: {
           />
         )}
         {props.page && (
-          <EditablePage
-            templateAnnotations={props.templateAnnotations || {}}
-            content={props.page}
-            magnoliaContext={props.magnoliaContext}
-            config={config}
-          />
+          <div className='max-w-7xl mx-auto'>
+            <EditablePage
+              templateAnnotations={props.templateAnnotations || {}}
+              content={props.page}
+              magnoliaContext={props.magnoliaContext}
+              config={config}
+            />
+          </div>
         )}
       </div>
     </>

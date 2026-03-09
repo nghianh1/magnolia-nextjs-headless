@@ -10,44 +10,45 @@ export default {
   analytics: {
     enabled: true,
     // Set to false to turn off analytics
-    uuid: "eeb6b44c-ff35-4543-bdc8-dc33c6c56b59"
+    uuid: "eeb6b44c-ff35-4543-bdc8-dc33c6c56b59",
   },
   // Logger configuration
   // see: https://github.com/winstonjs/winston#logging for logging levels explanation
   logger: {
-    filename: './mgnl.error.log',
-    fileLevel: 'debug',
-    consoleLevel: 'info'
+    filename: "./mgnl.error.log",
+    fileLevel: "debug",
+    consoleLevel: "info",
   },
   // Here you can add plugins you want to use with MGNL CLI
-  plugins: [new CreatePagePlugin({
-      framework: '@magnolia/cli-react-prototypes',
+  plugins: [
+    new CreatePagePlugin({
+      framework: "@magnolia/cli-react-prototypes",
       templateArgs: {
-        removeExtension: true
+        removeExtension: true,
       },
       templateData: {
-        port: '8181'
-      }
-      
-    }), new CreateComponentPlugin({
-      framework: '@magnolia/cli-react-prototypes',
+        port: "8181",
+      },
+    }),
+    new CreateComponentPlugin({
+      framework: "@magnolia/cli-react-prototypes",
       templateArgs: {
-        removeExtension: true
-      }
-
-    }), new CreateVirtualUriPlugin(),
+        removeExtension: true,
+      },
+    }),
+    new CreateVirtualUriPlugin(),
     new CreateRestEndpointPlugin(),
     new CreateContentTypePlugin(),
     new CreateAppPlugin(),
     new CreateLightModulePlugin(),
     new StartPlugin({
-      tomcatPath: './.magnolia/apache-tomcat'
-    })
+      tomcatPath: "./.magnolia/apache-tomcat",
+    }),
   ],
   type: "tsx",
   lightModulesPath: "./light-modules",
   lightModule: "spa-lm",
   componentMappingFilePath: "./spa/src/magnolia.config.ts",
   componentsSpaPath: "./spa/src/app/templates/components",
-  pagesSpaPath: "./spa/src/app/templates/pages"
+  pagesSpaPath: "./spa/src/app/templates/pages",
 };

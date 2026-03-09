@@ -1,0 +1,9 @@
+title: freeGifts
+dialog: spa-lm:components/freeGifts
+
+areas:
+  freeGifts:
+    title: Free Gifts
+    availableComponents:
+      freeGiftCard:
+        id: spa-lm:components/freeGiftCard

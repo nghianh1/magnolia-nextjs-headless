@@ -1,1 +1,5 @@
 node_modules
+.magnolia/apache-tomcat/
+.next/
+dist/
+.env

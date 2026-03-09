@@ -1,0 +1,9 @@
+label: Page Properties
+form:
+  tabs:
+    - name: settings
+      label: Settings
+      fields:
+        - name: title
+          label: Page title
+          fieldType: text

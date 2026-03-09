@@ -11,18 +11,20 @@ const Basic = ({
   main: MgnlContent;
   footer: MgnlContent;
 }) => {
+
+
   return (
     <div className='flex flex-col justify-between min-h-[calc(100vh-5rem)]'>
        <header>
-        <h1>My Custom Header</h1>
+        <h1 className="font-bold text-base uppercase px-9">My Custom Header</h1>
       </header>
       {title &&
-        <header className="hidden">
-          <h1 className="sr-only">{title}</h1>
+        <header className="hidden ">
+          <h1 className="sr-only" >{title}</h1>
         </header>
       }
 
-      <main>{main && <EditableArea content={main} />}</main>
+      <main>{main && <EditableArea  content={main} elementType='section'/>}</main>
 
       {footer && (
         <EditableArea

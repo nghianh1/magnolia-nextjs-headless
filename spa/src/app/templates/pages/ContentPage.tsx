@@ -17,8 +17,8 @@ const ContentPage = (props: IContentPage) => {
       <div>[Basic Page]</div>
       <h1>{title || (props.metadata?.["@name"] as string)}</h1>
 
-      <main>
-        <div>[Main Area]</div>
+      <main >
+        <div >[Main Area]</div>
         {main && <EditableArea className="Area" content={main} />}
       </main>
 

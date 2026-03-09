@@ -1,5 +1,6 @@
 import React from "react";
 import { environment } from "../../../environments/environment";
+import Image from "next/image";
 
 interface ImageChooser {
   field?: "image" | "externalImage";
@@ -86,17 +87,23 @@ const HeroBanner: React.FC<IHeroBannerProps> = ({
 
   const heightClass = height ? height : "h-screen";
 
+  console.log("image src", imageSrc);
+
   return (
     <section
       className={`relative ${heightClass} flex items-center justify-center text-white`}
     >
       {imageSrc && (
         <div className="absolute inset-0">
-          <img
+          <div className="relative">
+            <Image
             src={imageSrc}
             alt={imageAlt}
             className="w-full h-full object-cover"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
+          </div>
           <div className="absolute inset-0 bg-black opacity-50"></div>
         </div>
       )}

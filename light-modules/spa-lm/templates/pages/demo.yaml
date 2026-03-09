@@ -1,8 +1,8 @@
 renderType: spa
 class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
 
-title: contentPage
-dialog: spa-lm:pages/contentPage
+title: demo
+dialog: spa-lm:pages/demo
 baseUrl: http://localhost:8181
 routeTemplate: '/{language}{{@path}}'
 
@@ -10,8 +10,11 @@ areas:
   main:
     title: Main Area
     availableComponents:
+      homePageBanner:
+        id: spa-lm:components/homePageBanner
       textBlock:
         id: spa-lm:components/textBlock
-
+      demo:
+        id: spa-lm:components/demo
   extras:
     title: Extras Area

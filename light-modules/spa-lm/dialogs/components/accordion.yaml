@@ -1,0 +1,71 @@
+label: accordion
+form:
+  properties:
+    accordion:
+      i18n: true
+      $type: jcrMultiField
+      label: Accordion
+      required: true
+      field:
+        $type: compositeField
+        label: Accordion Item
+        properties:
+          title:
+            $type: textField
+            label: Title
+            required: true
+          description:
+            $type: richTextField
+            label: Description
+            i18n: true
+            colors: 02373F
+            fontSizes: 'Small/0.75rem;Default/1rem;Big/1.5rem'
+          imageChooser:
+            $type: switchableField
+            label: Image
+            field:
+              $type: comboBoxField
+              emptySelectionAllowed: true
+              datasource:
+                $type: optionListDatasource
+                options:
+                  - name: image
+                    label: Internal Image
+                    value: image
+                  - name: externalImage
+                    label: External Image
+                    value: externalImage
+            itemProvider:
+              $type: jcrChildNodeProvider
+            forms:
+              - name: image
+                properties:
+                  image:
+                    i18n: true
+                    required: true
+                    $type: damLinkField
+                    label: Internal Image Link
+                  imageAlt:
+                    i18n: true
+                    $type: textField
+                    label: Image Alt Text
+              - name: externalImage
+                properties:
+                  externalImage:
+                    i18n: true
+                    required: true
+                    $type: textField
+                    label: External Image Link
+                    validators:
+                      imageUrlValidator:
+                        $type: regexpValidator
+                        pattern: ^https?:\/\/(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(?:\/[^\s]*)?$
+                        errorMessage: Enter a valid Image URL
+                  externalImageAlt:
+                    i18n: true
+                    $type: textField
+                    label: Image Alt Text
+          expanded:
+            $type: checkBoxField
+            label: Default Expansion
+            buttonLabel: Expand this item by default

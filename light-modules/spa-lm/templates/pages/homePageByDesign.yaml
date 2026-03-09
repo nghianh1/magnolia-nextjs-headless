@@ -1,0 +1,47 @@
+renderType: spa
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+
+title: homePageByDesign
+dialog: spa-lm:pages/homePageByDesign
+baseUrl: http://localhost:8181
+routeTemplate: '/{language}{{@path}}'
+
+areas:
+  hero:
+    title: Carousel Area
+    availableComponents:
+      homePageBanner:
+        id: spa-lm:components/heroBanner
+      textBlock:
+        id: spa-lm:components/textBlock
+  freegifts:
+    title: Free Gifts
+    availableComponents:
+      freeGifts:
+        id: spa-lm:components/freeGifts
+  # leaders:
+  #   title: Leaders
+  #   availableComponents:
+  # secondaryHero:
+  #   title: Secondary Hero
+  #   availableComponents:
+     
+  # exploreIndustry:
+  #   title: Explore Industries
+  #   availableComponents:
+  # subsidy:
+  #   title: Subsidy
+  #   availableComponents:
+     
+  # marketplace:
+  #   title: Marketplace
+  #   availableComponents:
+  # reviews:
+  #   title: Reviews
+  #   availableComponents:
+  # recognitions:
+  #   title: Recognitions
+  #   availableComponents:
+  
+  # extras:
+  #   title: Extras Area

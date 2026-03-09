@@ -1,0 +1,14 @@
+title: container
+dialog: spa-lm:components/container
+areas:
+  item1: &id0001
+    title: Items
+    availableComponents:
+      container:
+        id: spa-lm:components/container
+      tourCard:
+        id: spa-lm:components/tourCard
+  item2: *id0001
+  item3: *id0001
+  item4: *id0001
+  item5: *id0001

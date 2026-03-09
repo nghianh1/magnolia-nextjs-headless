@@ -1,0 +1,8 @@
+title: tourList
+dialog: spa-lm:components/tourList
+areas:
+  items:
+    title: Tour Items
+    availableComponents:
+      tourCard:
+        id: spa-lm:components/tourCard

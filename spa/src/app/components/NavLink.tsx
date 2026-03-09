@@ -15,12 +15,9 @@ const NavLink = ({
     return <span className={className}>{children}</span>;
   }
   return (
-    <>
     <Link className={className} href={href}>
       {children}
     </Link>
-    <Link href='/custom'>Custom page</Link>
-    </>
   );
 };
 

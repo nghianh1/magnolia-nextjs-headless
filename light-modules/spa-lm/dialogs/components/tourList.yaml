@@ -1,0 +1,17 @@
+label: tourList
+form:
+  properties:
+    headline:
+      label: Tour List Headline
+      $type: textField
+      i18n: true
+  # items:
+    #   i18n: true
+    #   required: true
+    #   $type: jcrMultiField
+    #   label: List Items
+    #   field:
+    #     i18n: true
+    #     required: true
+    #     $type: textField
+    #     label: Item
