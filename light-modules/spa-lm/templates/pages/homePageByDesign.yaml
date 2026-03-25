@@ -4,7 +4,7 @@ class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
 title: homePageByDesign
 dialog: spa-lm:pages/homePageByDesign
 baseUrl: http://localhost:8181
-routeTemplate: '/{language}{{@path}}'
+routeTemplate: "/{language}{{@path}}"
 
 areas:
   hero:
@@ -12,27 +12,36 @@ areas:
     availableComponents:
       homePageBanner:
         id: spa-lm:components/heroBanner
-      textBlock:
-        id: spa-lm:components/textBlock
+      bannerCarousel:
+        id: spa-lm:components/bannerCarousel
   freegifts:
     title: Free Gifts
     availableComponents:
       freeGifts:
         id: spa-lm:components/freeGifts
-  # leaders:
-  #   title: Leaders
-  #   availableComponents:
-  # secondaryHero:
-  #   title: Secondary Hero
-  #   availableComponents:
-     
-  # exploreIndustry:
-  #   title: Explore Industries
-  #   availableComponents:
+  leaders:
+    title: Leaders area
+    availableComponents:
+      trustedLeaders:
+        id: spa-lm:components/trustedLeaders
+      container:
+        id: spa-lm:components/container
+  secondaryHero:
+    title: Secondary Hero Area
+    availableComponents:
+      secondaryHero:
+        id: spa-lm:components/secondaryHero
+  exploreIndustry:
+    title: Explore Industries Area
+    availableComponents:
+      exploreIndustries:
+        id: spa-lm:components/exploreIndustries
+      container:
+        id: spa-lm:components/container
   # subsidy:
   #   title: Subsidy
   #   availableComponents:
-     
+
   # marketplace:
   #   title: Marketplace
   #   availableComponents:
@@ -42,6 +51,6 @@ areas:
   # recognitions:
   #   title: Recognitions
   #   availableComponents:
-  
+
   # extras:
   #   title: Extras Area

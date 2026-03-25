@@ -45,62 +45,8 @@ const FreeGiftCard: React.FC<IFreeGiftCardProps> = ({
     }
   }
 
-  const hasImage = !!imageSrc;
 
-
-
- 
-
-  // return (
-    // <div className="w-full p-4">
-    //   <div
-    //     className={`flex overflow-hidden bg-white border border-gray-200 shadow-sm rounded-xl`}
-    //   >
-    //     {hasImage && (
-    //       <div
-    //         className={`${getImageClasses(imagePosition)} overflow-hidden flex-shrink-0`}
-    //       >
-    //         {/* eslint-disable-next-line @next/next/no-img-element */}
-    //         <img
-    //           src={imageSrc}
-    //           alt={imageAlt}
-    //           loading="lazy"
-    //           className="w-full h-full object-cover object-center"
-    //         />
-    //       </div>
-    //     )}
-
-    //     <div className="p-6 flex flex-col justify-center flex-grow">
-    //       {title && <h2 className="font-bold text-xl mb-2">{title}</h2>}
-        
-    //       {linkHref && (
-    //         <div className="mt-4">
-    //           <a
-    //             href={linkHref}
-    //             className="inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/60 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
-    //             target={
-    //               linkChooser?.field === "externalLink" ? "_blank" : undefined
-    //             }
-    //             rel={
-    //               linkChooser?.field === "externalLink"
-    //                 ? "noopener noreferrer"
-    //                 : undefined
-    //             }
-    //           >
-    //             {linkText}
-    //           </a>
-    //         </div>
-    //       )}
-    //     </div>
-    //   </div>
-    // </div>
-  //   <div className="w-full p-4 flex">
-  //     <p>{title}</p>
-  //     <div>
-        
-  //     </div>
-  //   </div>
-  // );
+  
   return (
     <Link
       href={linkHref}
@@ -110,11 +56,12 @@ const FreeGiftCard: React.FC<IFreeGiftCardProps> = ({
         {title}
       </p>
 
-      <div className="w-24 h-20 rounded-lg bg-gray-300 flex items-center justify-center">
-        <Image src={imageSrc} alt={imageAlt} className="w-10 h-10" fill/>
+      <div className="w-24 h-20 rounded-lg bg-gray-300 flex items-center justify-center relative">
+        <Image src={imageSrc} alt={imageAlt} className="w-full h-full object-cover" fill unoptimized/>
       </div>
     </Link>
   )
 };
 
 export default FreeGiftCard;
+

@@ -517,3 +517,105 @@ to component mappings file: "D:\magnolia-headless\spa\src\magnolia.config.ts"
 [StartPlugin@1.0.4] 2026-03-06T09:41:26.263+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
 [StartPlugin@1.0.4] 2026-03-06T09:41:26.263+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
 [StartPlugin@1.0.4] 2026-03-06T09:41:26.263+07:00 info: Press CTRL+C to terminate the process
+[StartPlugin@1.0.4] 2026-03-09T14:20:19.768+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T14:20:19.768+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T14:22:45.916+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T14:22:45.916+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T14:22:45.916+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-03-09T14:22:45.916+07:00 info: Press CTRL+C to terminate the process
+[StartPlugin@1.0.4] 2026-03-09T14:40:22.621+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T14:40:22.621+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T14:40:22.621+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-03-09T14:40:22.621+07:00 info: Press CTRL+C to terminate the process
+[@magnolia/cli@5.3.0] 2026-03-09T14:40:20.555+07:00 error: Second SIGINT received. Forcefully terminating...
+[StartPlugin@1.0.4] 2026-03-09T15:43:03.933+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T15:43:03.933+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[@magnolia/cli@5.3.0] 2026-03-09T15:46:18.891+07:00 warn: Couldn't send analytics.
+[StartPlugin@1.0.4] 2026-03-09T15:46:20.223+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T15:46:20.223+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[CreateComponentPlugin@1.4.0] 2026-03-09T15:51:01.217+07:00 info: Using light module "D:\magnolia-headless\light-modules\spa-lm" set by global argument in mgnl.config.js
+[CreateComponentPlugin@1.4.0] 2026-03-09T15:51:01.217+07:00 info: Starting @magnolia/cli-react-prototypes
+[CreateComponentPlugin@1.4.0] 2026-03-09T15:51:01.217+07:00 info: Name "SecondaryHero" will be used instead of provided "secondaryHero" for files created in spa folder
+[CreateComponentPlugin@1.4.0] 2026-03-09T15:51:01.217+07:00 info: File "secondaryHero.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/dialogs/components/secondaryHero.yaml
+[CreateComponentPlugin@1.4.0] 2026-03-09T15:51:01.217+07:00 info: File "secondaryHero.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/templates/components/secondaryHero.yaml
+[CreateComponentPlugin@1.4.0] 2026-03-09T15:51:01.217+07:00 info: File "SecondaryHero.model.ts" created at: D:/magnolia-headless/spa/src/app/templates/components/SecondaryHero/SecondaryHero.model.ts
+[CreateComponentPlugin@1.4.0] 2026-03-09T15:51:01.217+07:00 info: File "SecondaryHero.tsx" created at: D:/magnolia-headless/spa/src/app/templates/components/SecondaryHero/SecondaryHero.tsx
+[CreateComponentPlugin@1.4.0] 2026-03-09T15:51:01.217+07:00 info: Added: import SecondaryHeroComponent from './app/templates/components/SecondaryHero/SecondaryHero'
+and: "spa-lm:components/secondaryHero": SecondaryHeroComponent
+to component mappings file: "D:\magnolia-headless\spa\src\magnolia.config.ts"
+[StartPlugin@1.0.4] 2026-03-09T15:59:46.523+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T15:59:46.523+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T16:07:59.612+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T16:07:59.612+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T16:08:36.148+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T16:08:36.148+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T16:09:02.302+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T16:09:02.302+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T16:09:02.302+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-03-09T16:09:02.302+07:00 info: Press CTRL+C to terminate the process
+[StartPlugin@1.0.4] 2026-03-09T17:49:37.642+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T17:49:37.642+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T17:49:37.642+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-03-09T17:49:37.642+07:00 info: Press CTRL+C to terminate the process
+[@magnolia/cli@5.3.0] 2026-03-09T17:49:33.679+07:00 error: Second SIGINT received. Forcefully terminating...
+[StartPlugin@1.0.4] 2026-03-09T17:54:04.671+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T17:54:04.671+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T17:54:04.671+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-03-09T17:54:04.671+07:00 info: Press CTRL+C to terminate the process
+[@magnolia/cli@5.3.0] 2026-03-09T17:54:02.397+07:00 error: Second SIGINT received. Forcefully terminating...
+[StartPlugin@1.0.4] 2026-03-09T18:02:11.986+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T18:02:11.986+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T18:02:11.986+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-03-09T18:02:11.986+07:00 info: Press CTRL+C to terminate the process
+[@magnolia/cli@5.3.0] 2026-03-09T18:02:09.598+07:00 error: Second SIGINT received. Forcefully terminating...
+[StartPlugin@1.0.4] 2026-03-09T18:12:07.050+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T18:12:07.050+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T18:12:07.050+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-03-09T18:12:07.050+07:00 info: Press CTRL+C to terminate the process
+[@magnolia/cli@5.3.0] 2026-03-09T18:12:05.073+07:00 error: Second SIGINT received. Forcefully terminating...
+[StartPlugin@1.0.4] 2026-03-09T18:33:50.734+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T18:33:50.734+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T18:33:50.734+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-03-09T18:33:50.734+07:00 info: Press CTRL+C to terminate the process
+[@magnolia/cli@5.3.0] 2026-03-09T18:33:48.627+07:00 error: Second SIGINT received. Forcefully terminating...
+[StartPlugin@1.0.4] 2026-03-09T18:38:48.509+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T18:38:48.509+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T18:38:48.509+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-03-09T18:38:48.509+07:00 info: Press CTRL+C to terminate the process
+[@magnolia/cli@5.3.0] 2026-03-09T18:38:46.411+07:00 error: Second SIGINT received. Forcefully terminating...
+[StartPlugin@1.0.4] 2026-03-09T18:44:13.648+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T18:44:13.648+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-09T18:44:13.648+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-03-09T18:44:13.648+07:00 info: Press CTRL+C to terminate the process
+[CreateComponentPlugin@1.4.0] 2026-03-10T10:04:40.196+07:00 info: Using light module "D:\magnolia-headless\light-modules\spa-lm" set by global argument in mgnl.config.js
+[CreateComponentPlugin@1.4.0] 2026-03-10T10:04:40.196+07:00 info: Starting @magnolia/cli-react-prototypes
+[CreateComponentPlugin@1.4.0] 2026-03-10T10:04:40.196+07:00 info: Name "bannerCarousel" will be used instead of provided "BannerCarousel" for files created in light-module folder
+[CreateComponentPlugin@1.4.0] 2026-03-10T10:04:40.196+07:00 info: File "bannerCarousel.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/dialogs/components/bannerCarousel.yaml
+[CreateComponentPlugin@1.4.0] 2026-03-10T10:04:40.196+07:00 info: File "bannerCarousel.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/templates/components/bannerCarousel.yaml
+[CreateComponentPlugin@1.4.0] 2026-03-10T10:04:40.196+07:00 info: File "BannerCarousel.model.ts" created at: D:/magnolia-headless/spa/src/app/templates/components/BannerCarousel/BannerCarousel.model.ts
+[CreateComponentPlugin@1.4.0] 2026-03-10T10:04:40.196+07:00 info: File "BannerCarousel.tsx" created at: D:/magnolia-headless/spa/src/app/templates/components/BannerCarousel/BannerCarousel.tsx
+[CreateComponentPlugin@1.4.0] 2026-03-10T10:04:40.196+07:00 info: Added: import BannerCarouselComponent from './app/templates/components/BannerCarousel/BannerCarousel'
+and: "spa-lm:components/bannerCarousel": BannerCarouselComponent
+to component mappings file: "D:\magnolia-headless\spa\src\magnolia.config.ts"
+[StartPlugin@1.0.4] 2026-03-10T10:27:09.000+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-10T10:27:09.000+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-10T10:27:09.000+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-03-10T10:27:09.000+07:00 info: Press CTRL+C to terminate the process
+[CreateComponentPlugin@1.4.0] 2026-03-10T14:07:29.168+07:00 info: Using light module "D:\magnolia-headless\light-modules\spa-lm" set by global argument in mgnl.config.js
+[CreateComponentPlugin@1.4.0] 2026-03-10T14:07:29.168+07:00 info: Starting @magnolia/cli-react-prototypes
+[CreateComponentPlugin@1.4.0] 2026-03-10T14:07:29.168+07:00 info: Name "GridSection" will be used instead of provided "gridSection" for files created in spa folder
+[CreateComponentPlugin@1.4.0] 2026-03-10T14:07:29.168+07:00 info: File "gridSection.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/dialogs/components/gridSection.yaml
+[CreateComponentPlugin@1.4.0] 2026-03-10T14:07:29.168+07:00 info: File "gridSection.yaml" created at: D:/magnolia-headless/light-modules/spa-lm/templates/components/gridSection.yaml
+[CreateComponentPlugin@1.4.0] 2026-03-10T14:07:29.168+07:00 info: File "GridSection.model.ts" created at: D:/magnolia-headless/spa/src/app/templates/components/GridSection/GridSection.model.ts
+[CreateComponentPlugin@1.4.0] 2026-03-10T14:07:29.168+07:00 info: File "GridSection.tsx" created at: D:/magnolia-headless/spa/src/app/templates/components/GridSection/GridSection.tsx
+[CreateComponentPlugin@1.4.0] 2026-03-10T14:07:29.168+07:00 info: Added: import GridSectionComponent from './app/templates/components/GridSection/GridSection'
+and: "spa-lm:components/gridSection": GridSectionComponent
+to component mappings file: "D:\magnolia-headless\spa\src\magnolia.config.ts"
+[StartPlugin@1.0.4] 2026-03-10T14:08:54.841+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-10T14:08:54.841+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-10T14:08:54.841+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-03-10T14:08:54.841+07:00 info: Press CTRL+C to terminate the process
+[StartPlugin@1.0.4] 2026-03-10T14:25:24.147+07:00 info: Using light modules path "D:\magnolia-headless\light-modules" set by global argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-10T14:25:24.147+07:00 info: Using tomcat path "D:\magnolia-headless\.magnolia\apache-tomcat" set by plugin argument in mgnl.config.js
+[StartPlugin@1.0.4] 2026-03-10T14:25:24.147+07:00 info: Starting Magnolia located at: D:\magnolia-headless\.magnolia\apache-tomcat
+[StartPlugin@1.0.4] 2026-03-10T14:25:24.147+07:00 info: Press CTRL+C to terminate the process

@@ -1,0 +1,11 @@
+label: IndustryItem
+form:
+  properties:
+    industryImage:
+      $type: damLinkField
+      label: Industry Image
+      required: false
+    title:
+      $type: textField
+      label: Section Title
+      defaultValue: IndustryItem

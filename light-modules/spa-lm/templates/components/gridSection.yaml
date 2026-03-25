@@ -1,0 +1,13 @@
+title: gridSection
+dialog: spa-lm:components/gridSection
+areas:
+  item1: &id0001
+    title: Items
+    availableComponents:
+      gridSection:
+        id: spa-lm:components/gridSection
+
+  item2: *id0001
+  item3: *id0001
+  item4: *id0001
+  item5: *id0001

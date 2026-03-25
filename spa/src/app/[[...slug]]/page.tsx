@@ -133,7 +133,7 @@ export default async function Page(pageProps: {
           />
         )}
         {props.page && (
-          <div className='max-w-7xl mx-auto'>
+          <div className=' mx-auto'>
             <EditablePage
               templateAnnotations={props.templateAnnotations || {}}
               content={props.page}

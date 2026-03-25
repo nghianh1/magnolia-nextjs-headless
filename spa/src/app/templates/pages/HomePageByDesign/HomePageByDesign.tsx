@@ -21,8 +21,8 @@ const HomePageByDesign = (props: IHomePageByDesignProps) => {
       <div>[Basic Page]</div>
       <h1>{title || (props.metadata?.['@name'] as string)}</h1>
 
-      <main>
-        <div className='w-full'>
+      <main className='flex flex-col'>
+        <div className='container mx-auto my-11'>
           {hero && <EditableArea content={hero} />}
         </div>
         {freegifts && <EditableArea className='Area' content={freegifts} />}

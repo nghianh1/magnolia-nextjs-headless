@@ -1,12 +1,6 @@
-label: freeGifts
-
 form:
   properties:
     title:
       $type: textField
       label: Section Title
       defaultValue: Explore Industries
-
-    description:
-      $type: textField
-      label: Description

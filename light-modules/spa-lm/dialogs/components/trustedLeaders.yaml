@@ -1,0 +1,18 @@
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+
+    logos:
+      $type: jcrMultiField
+      label: Logos
+      field:
+        $type: compositeField
+        properties:
+          image:
+            $type: damLinkField
+            label: Logo Image
+          alt:
+            $type: textField
+            label: Alt Text

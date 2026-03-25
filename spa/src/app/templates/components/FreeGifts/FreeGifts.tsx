@@ -4,7 +4,7 @@ import IFreeGiftsProps from './FreeGifts.model';
 
 const FreeGifts: React.FC<IFreeGiftsProps> = (props) => {
   return (
-    <section className='py-16'>
+    <section className='mt-8 container mx-auto'>
         <EditableArea content={props.freeGifts} className={'grid grid-cols-3 gap-4'}/>
     </section>
   );

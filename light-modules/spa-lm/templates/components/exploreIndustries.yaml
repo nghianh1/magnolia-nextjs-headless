@@ -1,0 +1,9 @@
+title: Explore industries
+dialog: spa-lm:components/exploreIndustries
+
+areas:
+  industries:
+    title: Explore Industries
+    availableComponents:
+      industryItem:
+        id: spa-lm:components/industryItem
